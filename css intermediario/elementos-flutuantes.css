@@ -1,0 +1,37 @@
+body{
+        background: #eb8f52;
+}
+
+h1{
+    background:#cc6018;
+    color: #e5e5e5;
+    text-align: center;
+}
+
+#principal{
+    width: 920px;
+}
+
+.noticia{
+    background: #e5e5e5;
+    padding: 5px;
+    width: 280px;
+    margin: 7px;
+    float: left;
+}
+            
+.clear{
+    clear: both;
+}
+
+.imagem-galeria{
+    background: white ;
+    width: 265px;
+    padding: 5px;
+    float: left ;
+    margin: 15px;
+}
+
+.p-center{
+    text-align: center;
+}

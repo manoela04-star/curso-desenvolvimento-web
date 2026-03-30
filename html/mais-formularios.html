@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais sobre Formulários</title>
+</head>
+
+
+<body>
+    
+    <h1>Mais sobre formularios</h1>
+
+    <form action="processa.html" method="get">
+        
+        <h2>label</h2>
+            <!--Label -> legenda para item da interface
+                for -> para 
+            -->
+
+        <label>
+            Nome:
+            <input type="text" name="nome"> <!--Jeito menos utilzado-->
+        </label>
+
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email"> <!--Jeito mais utlilizado-->
+
+        <br>
+
+        <h2>Mais elementos de formularios</h2>
+
+            Gênero<br>
+                <input type="radio" name="genero" value="Feminino" id="feminino">
+                    <label for="feminino">Feminino</label>
+                <br>
+                <input type="radio" name="genero" value="Masculino" id="masculino">
+                    <label for="masculino">Masculino</label>
+
+        <br><br>
+
+            Estilo Musical<br>
+
+                <input type="checkbox" name="Estilo" value="rock" id="rock">
+                    <label for="rock">Rock</label>
+
+                <input type="checkbox" name="Estilo" value="samba" id="samba">
+                    <label for="samba">Samba</label>
+
+                <input type="checkbox" name="Estilo" value="mpb" id="mpb">
+                    <label for="mpb">Mpb</label>
+            <br><br><br>
+
+            Estado:
+                <select name="estado">
+                    <option value="">Selecione...</option>
+                    <option value="RJ">Rio De Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="BA">Bahia</option>
+                    <option value="MG">Minas Gerais</option>
+                </select>
+
+            <br><br><br>
+
+            Upload de arquivo:
+                <input type="file" name="arquivo">
+        
+        
+
+        <br><br>
+        <input type="submit" value="Cadastrar">
+
+    </form>
+
+
+    <form> 
+
+        <h2>Fieldset e Legend</h2>
+            <!--
+                fildset -> conjunto de campos
+                legend -> Legenda para conjunto de campos
+            -->
+            <fieldset>
+                    <legend>Dados Pessoas</legend>
+
+                    <label for="nome">Nome</label>
+                        <input type="text" name="name" id="nome">
+
+                    <label for="email2">Email</label>
+                        <input type="text" name="email" id="email2">
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados Adicionais</legend>
+
+                    Gênero<br>
+                    <input type="radio" name="genero" value="Feminino" id="feminino">
+                        <label for="feminino">Feminino</label>
+                    <br>
+                    <input type="radio" name="genero" value="Masculino" id="masculino">
+                        <label for="masculino">Masculino</label>
+
+            </fieldset>
+
+
+    </form>
+
+</body>
+</html>

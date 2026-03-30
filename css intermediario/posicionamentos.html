@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamentos (static, relative, absolute e fixed)</title>
+
+    <style type="text/css">
+
+        body{
+            background: purple;}
+            
+
+        #container{
+            background: #fff;
+            width: 700px;
+            margin: 10px auto;
+            padding: 8px;
+            position: relative;
+            border: 2px solid lightgreen;
+        }
+
+        .borda{
+            border: 1px solid red;
+        }
+
+        .estatica{
+            position: relative;
+        }
+
+        .relativa{
+            position: relative;
+        /*top, left, right e botton, nao empurrando o conteudo, enquanto o margim, empurra o contaudo*/
+         /*Tipos de posição relativas: top (topo), right(direita), bottom(inferior) e left (esquerda)*/
+      
+        
+            /*margin-top: 80px;*/
+
+            /*top: 30px;
+              left: 30px;
+              right: 30px;
+              bottom: 50px;
+            */
+        }
+
+        .absoluta{
+            /*position: absolute;*/
+            /*top: 50%;
+            left: 30px;*/
+            /*bottom: 0;
+            right: 0;*/
+            width: 500px;
+            margin: 0;
+        }
+
+        .fixa{
+            position: fixed;
+            width: 200px;
+            height: 120px;
+            bottom: 0;
+            left: 0;
+            z-index: 10;
+        }
+      
+    </style>
+
+
+
+</head>
+
+<body>
+    
+    <div id="container">
+
+        <div class="fixa" style="background-color: green;">
+            <h3>chat posição fixa</h3>
+            <button>Enviar mensagem</button>
+        </div>
+
+
+
+
+
+        <h1 class="borda">Posição absoluta</h1>
+        <p class="borda absoluta" style="background-color: lightpink"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt totam, saepe ipsa officia molestias modi 
+            rerum nam dolorum? Veniam beatae, obcaecati temporibus provident ratione quam.
+        </p>
+    <hr>
+
+        <h1 class="borda">Posição Relativa </h1>
+        <p class="borda relativa" style="background-color: lightgreen"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt totam, saepe ipsa officia molestias modi 
+            rerum nam dolorum? Veniam beatae, obcaecati temporibus provident ratione quam.
+        </p>
+
+         <p class="borda estatica">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt totam, saepe ipsa officia molestias modi 
+            rerum nam dolorum? Veniam beatae, obcaecati temporibus provident ratione quam.
+        </p>
+        
+        <h1 class="borda estatica">Fluxo normal</h1>
+        <p class="borda estatica">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt totam, saepe ipsa officia molestias modi 
+            rerum nam dolorum? Veniam beatae, obcaecati temporibus provident ratione quam.
+        </p>
+
+        <p class="borda estatica">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt totam, saepe ipsa officia molestias modi 
+            rerum nam dolorum? Veniam beatae, obcaecati temporibus provident ratione quam.
+        </p>
+
+        <p class="borda estatica">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt totam, saepe ipsa officia molestias modi 
+            rerum nam dolorum? Veniam beatae, obcaecati temporibus provident ratione quam.
+        </p>
+
+    </div>
+
+
+
+</body>
+
+</html>

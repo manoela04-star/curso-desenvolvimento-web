@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Overflow e dimensões de caixa</title>
+
+    <style>
+        
+        .caixa{
+            /*width: 600px;
+            height: 300px;
+            min-width: 300px; Largura mínima
+            max-width: 600px; Largura máxima
+            min-height:200px; Define largura mínima da altura.
+            height: 300px;*/
+
+            width: 600px;
+            height: 300px;
+            border: 1px solid red;
+            background-color: lightgrey;
+            /*
+            visible: exibe o conteúdo de forma vazada, fora da caixa do conteudo                              
+            hidden: Esconde o conteúdo exceedente
+            scroll: Sempre exibe barras de rolagem
+            auto: adiciona scroll somente se necessário
+            */
+
+            /*overflow: auto;*/
+            overflow-x: hidden ; /* exibe a barra somente na horizontal */
+            overflow: auto;   /* exibe a barra somente na vertical */
+
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    
+    <div class="caixa">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit praesentium, fugiat deserunt sunt vel nobis debitis excepturi perspiciatis magni non dolores odio et delectus quae, repellendus esse tempore vitae. 
+            Optio at temporibus explicabo labore eligendi accusantium? Sint officia, maxime dolorem ullam atque doloremque facilis, impedit nostrum illum, voluptatibus libero repudiandae?
+        </p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit praesentium, fugiat deserunt sunt vel nobis debitis excepturi perspiciatis magni non dolores odio et delectus quae, repellendus esse tempore vitae. 
+            Optio at temporibus explicabo labore eligendi accusantium? Sint officia, maxime dolorem ullam atque doloremque facilis, impedit nostrum illum, voluptatibus libero repudiandae?
+        </p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit praesentium, fugiat deserunt sunt vel nobis debitis excepturi perspiciatis magni non dolores odio et delectus quae, repellendus esse tempore vitae. 
+            Optio at temporibus explicabo labore eligendi accusantium? Sint officia, maxime dolorem ullam atque doloremque facilis, impedit nostrum illum, voluptatibus libero repudiandae?
+        </p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit praesentium, fugiat deserunt sunt vel nobis debitis excepturi perspiciatis magni non dolores odio et delectus quae, repellendus esse tempore vitae. 
+            Optio at temporibus explicabo labore eligendi accusantium? Sint officia, maxime dolorem ullam atque doloremque facilis, impedit nostrum illum, voluptatibus libero repudiandae?
+        </p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit praesentium, fugiat deserunt sunt vel nobis debitis excepturi perspiciatis magni non dolores odio et delectus quae, repellendus esse tempore vitae. 
+            Optio at temporibus explicabo labore eligendi accusantium? Sint officia, maxime dolorem ullam atque doloremque facilis, impedit nostrum illum, voluptatibus libero repudiandae?
+        </p>
+   
+    </div>
+    
+</body>
+
+</html>

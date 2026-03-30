@@ -1,0 +1,55 @@
+body{
+    background: lightskyblue;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    background: #fff;
+    position: relative;
+    margin: 1em auto;
+    padding: 0.8em;
+    width: 700px;
+}
+
+#titulo{
+    background-color: #0497f3;
+    padding: 1em;
+    margin: 5PX;
+    text-align: center;
+    color: #fff;
+
+}
+
+a{
+    padding: 0.5em;
+    text-decoration: none;
+    color: white ;
+}
+
+a:hover{
+    background-color: white;
+    color: #0497f3;
+}
+
+.sub{
+    margin: 10px;
+
+    
+}
+
+.chat{
+    background-color: violet;
+    height: 200px;
+    padding: 0.5em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+}
+        
+.novo{
+    position: absolute;
+    top: 0;
+    right: 0;
+}

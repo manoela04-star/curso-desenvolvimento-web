@@ -1,0 +1,77 @@
+/*
+   modelo de caixa
+
+.conteudo{
+    
+    border: 1px solid red;
+    padding-top: 20px; Espaçamento interno do topo 
+    padding-right: 20px; Espaçamento da direita
+    padding-bottom: 20PX; Espaçamento inferior 
+    padding-left: 20px; Espaçamento para a esquerda
+    width: 150px;
+    border: 1px solid red;
+
+    padding: 20px 15px 10px 5px;
+    padding: 20px;
+    width: 150px;
+
+    Espaçamento externo
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px; 
+
+    margin: 20px 15px 10px 5px;*
+    margin: 20px;
+}
+
+.conteudo2{
+      border: 1px solid red;
+
+      margin: 50px;
+
+       width: 150px;
+}
+*/
+
+#noticia{
+
+    padding: 10px;
+    width: 200px;
+    margin: auto;
+    border: 1px solid grey; 
+    text-align: center;
+}
+
+.noticia1{
+    margin: 0px;
+    border: 1px solid black;
+    color: #4f704a;
+}
+
+#noticia2{
+    padding: 10px;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+.noticia2{
+    background: black;
+    margin: 0px;
+    border: 3px solid #4f704a;
+    color: #ffffff;
+}
+
+.p1{
+    border: 1px solid black;
+    margin: 0px;
+}
+
+
+h1{
+
+    text-align: center;
+    background-color: #4f704a;
+    color: #ffffff;
+}
