@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Midia queries</title>
+
+    <style type="text/css">
+
+      /**************************/
+        /* Extra small devices 
+        @media print {
+          h1{
+            color: red;
+          }
+        }*/
+
+        /*Telas com ate 575px*/
+        @media (max-width: 575px){
+          body{
+            background-color: aqua;
+          }
+        }
+        
+        
+        /*Small devices (Celulares: >= 576)*/
+        @media (min-width: 576px){
+          body{
+            background-color: blue;
+          }
+        }
+
+        /*Medium devices (tablets, 768px e superior)*/
+        @media (min-width:768px) {
+          body{
+            background-color: red;
+          }
+        }
+
+        /*Large devices (desktops, 992px e superior)*/
+        @media (min-width:922px) {
+          body{
+            background-color: yellow;
+          }
+        }
+
+        /*Extra large devices (large desktops, 1200px e superior)*/
+        @media (min-width:1200px) {
+          body{
+            background-color: olive;
+          }
+          h1{
+            color: aliceblue;
+          }
+          p{
+            color: white;
+            background-color: rgb(56, 56, 15);
+          }
+        }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <h1>Conteúdo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus perspiciatis quidem enim voluptatem architecto? Non molestias optio asperiores delectus, sunt mollitia pariatur minima eos animi distinctio harum vero enim cupiditate.</p>
+    
+  </body>
+</html>

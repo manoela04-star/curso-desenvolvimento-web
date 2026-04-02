@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Barra de Navegação - Simples</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  
+    </head>
+  <body>
+
+    <div class="container">
+
+      <!-- Navegação
+    Tipos de navegação:
+        nav-pills
+        nav-tabs
+    opções de alinhamento: 
+        justify-content-center 
+        justify-content-end
+        flex-column
+    Opções de cores:
+      bg-primary, bg-secondary, bg-success, bg-info
+      bg-warning, bg-danger, bg-light, bg-dark, bg-white
+    Opções de tema:
+      data-bs-theme: dark ou light
+    -->
+    <h2>Navegação simples / abas</h2>
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+      <li class="nav-item"><a class="nav-link active" href="#">Sobre</a></li>
+      <li class="nav-item" ><a class="nav-link" href="#">Serviços</a></li>
+    </ul>
+    
+
+    <!-- Navegação
+    Estrutura de navegação:
+        navbar navbar-expand-<breakpoint>
+          navbar-brand
+          navbar-nav
+    -->
+    <h2>Barra de navegação simples</h2>
+    
+    <nav class="navbar navbar-expand bg-warning">
+      <!--Logo-->
+        <a class="navbar-brand" href="">Mercado Livre</a>
+      <!--Navegaçao-->
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+        <li class="nav-item" ><a class="nav-link" href="#">Serviços</a></li>
+      </ul>
+    
+    </nav>
+
+      <h4>Lorem ipsum dolor sit amet</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+
+      <h4>Lorem ipsum dolor sit amet</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+
+      <h4>Lorem ipsum dolor sit amet</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+
+      <h4>Lorem ipsum dolor sit amet</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+
+      
+
+    <h2>Barra de navegação com menu responsivo</h2>
+    <nav 
+    class="navbar navbar-expand-sm bg-light px-2 sticky-top"
+     data-bs-theme="light" >
+    <!--Logo-->
+      <a class="navbar-brand" href="">
+        <img src="img/logo.png" alt="" width="100">
+      </a>
+
+
+
+    <!--Menu de habumguer-->
+      <button class="navbar-toggler"
+      data-bs-toggle="collapse"
+      data-bs-target="#navegacao">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+    <!--Navegaçao-->
+      <div class="collapse navbar-collapse" id="navegacao">
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle" href="#">Home</a>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link dropdown-toggle" href="#">Sobre</a>
+          </li>
+
+          <li class="nav-item dropdown" >
+            <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown" href="#">Serviços</a>
+
+            <div class="dropdown-menu">
+
+              <a class="dropdown-item" href="#">Manutenções</a>
+              <a class="dropdown-item" href="#">Suporte</a>
+              <a class="dropdown-item" href="#">Ligações</a>
+            </div>
+          </li>
+
+        </ul>
+
+        <!--Formulario-->
+
+        <form action="" class="d-flex">
+          <input type="text" placeholder="Digite algo...." class="form-control">
+          <button class="btn btn-outline-primary">Pesquisar</button>
+        </form>
+
+
+      </div>
+    </nav>
+
+    <!--Alinhamentos
+    opções: fixed-top, fixed-bottom, sticky-<top e bottom>
+    -->
+    <h2>Alinhamentos</h2>
+    <h4>Lorem ipsum dolor sit amet</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+
+    <h4>Lorem ipsum dolor sit amet</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+
+    <h4>Lorem ipsum dolor sit amet</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+
+    <h4>Lorem ipsum dolor sit amet</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+
+    <h4>Lorem ipsum dolor sit amet</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+    
+     <h4>Lorem ipsum dolor sit amet</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+
+    <h4>Lorem ipsum dolor sit amet</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+
+    <h4>Lorem ipsum dolor sit amet</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+
+    <h4>Lorem ipsum dolor sit amet</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+
+    <h4>Lorem ipsum dolor sit amet</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+    
+     <h4>Lorem ipsum dolor sit amet</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+
+    <h4>Lorem ipsum dolor sit amet</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+
+    <h4>Lorem ipsum dolor sit amet</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+
+    <h4>Lorem ipsum dolor sit amet</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+
+    <h4>Lorem ipsum dolor sit amet</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et libero id erat tristique fermentum placerat a erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ac lobortis quam. Nunc vestibulum tincidunt arcu, at scelerisque velit ornare et. Vestibulum ut malesuada nibh.</p>
+
+
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
