@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap fundamentos - Input Group</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  
+    </head>
+  <body>
+    <div class="container py-3">
+
+    <form>
+        <!-- Input Group
+         input-group
+            input-group-text
+        -->
+       
+       <h2>Grupo [Antes]</h2>
+       <div class="input-group">
+            <input class="form-control" type="text" placeholder="e-mail">
+            <span class="input-group-text">@site.com</span>
+            <input class="form-control" type="text" placeholder="e-mail">
+       </div> 
+       <br>
+
+       <h2>Grupo [Depois]</h2>
+       <div class="input-group">
+            <input class="form-control" type="text" placeholder="e-mail">
+            <span class="input-group-text">@site.com</span>
+           
+       </div> 
+       <br>
+
+       <h2>URL customizada</h2>
+        <div class="input-group">
+            <span class="input-group-text">https://site.com/usuario/</span>
+           <input class="form-control" type="text" placeholder="Digite seu usuário">
+        </div>
+        <br>
+
+        <h2>Moeda</h2>
+        <div class="input-group">
+            <span class="input-group-text">R$</span>
+           <input class="form-control" type="text" placeholder="Digite um valor">
+           <span class="input-group-text">,00</span>
+        </div>
+        <br>
+
+        <!--
+        type: checkbox / radio
+        -->
+        <h2>Checkbox / radio</h2>
+        <div class="input-group">
+            <div class="input-group-text">
+                <input class="form-check-input mt-0" type="checkbox">
+            </div>
+            <input type="text" class="form-control">
+        </div>
+        <br>
+
+        <h2>Múltiplos inputs</h2>
+        <div class="input-group">
+           <span class="input-group-text">email/senha</span>
+           <input class="form-control" type="text" placeholder="e-mail">
+           <input class="form-control" type="password" placeholder="senha">
+       </div> 
+       <br>
+
+       <h2>Pesquisas</h2>
+       <div class="input-group">
+           <input class="form-control" type="text" placeholder="Pesquisar" >
+           <button class="input-group-text btn btn-outline-primary" type="button">Pesquisar</button>
+       </div>
+       <br><br>
+
+    </form>
+    
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
